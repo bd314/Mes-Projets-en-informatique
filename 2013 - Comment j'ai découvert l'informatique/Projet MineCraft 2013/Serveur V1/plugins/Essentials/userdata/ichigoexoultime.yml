@@ -1,0 +1,31 @@
+timestamps:
+  login: 1376564447033
+  lastteleport: 1376564471041
+  logout: 1376564540233
+  jail: 0
+ipAddress: 109.11.151.156
+lastlocation:
+  world: Spawn
+  x: -4035.3475810536984
+  y: 65.0
+  z: -2778.2030684407305
+  yaw: -114.779526
+  pitch: 20.656298
+logoutlocation:
+  world: Arene
+  x: 759.892972406315
+  y: 79.0
+  z: 208.0362435006649
+  yaw: 301.32083
+  pitch: -19.211884
+homes:
+  home:
+    world: Spawn
+    x: -4038.48806057018
+    y: 65.0
+    z: -2776.6153574542977
+    yaw: 8.145099
+    pitch: 13.799944
+afk: false
+money: '1083.0'
+jailed: false

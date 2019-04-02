@@ -1,0 +1,15 @@
+
+public class sdzl {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello world !\nI'm the \'best\'");
+		int nb;
+		nb = 10 ;
+		int nb2 ;
+		nb2 = 20 ;
+		System.out.println(nb2-nb);
+
+	}
+
+}

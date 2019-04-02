@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/img/favicon.ico">
+
+    <title>Baptiste Room ~ Powercontrol</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+      <link rel="shortcut icon" href="../assets/ico/favicon.png">
+
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Powercontrol</a>
+        </div>
+        
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+
+
+    <div class="container">
+	
+	 <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Hello, les Duvieu !</h1>
+        <p>Pas la peine, de s'amuser à jouer avec mes lumières ! Il y aura bientôt un nom d'utilisateur et un mdp<br /> Faut pas s'en faire on en est qu'à la première version ! Ce n'est qu'un début ! Stay connected.</p>
+      </div>
+      <!-- Example row of columns -->
+      <div class="row">
+	  
+	  
+        <div class="col-md-4">
+          	<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">Lampe du Salon</h3>
+				</div>
+            <div class="panel-body">
+				<div class="btn-group">
+					<button class="switchButton switch-a on btn btn-large btn-success" type="button">Allumer</button>
+					<button class="switchButton switch-a off btn btn-large btn-danger" type="button">Eteindre</button>
+				</div>
+            </div>
+          </div>
+		</div>
+		
+		
+		
+        <div class="col-md-4">
+          	<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">Bureau</h3>
+				</div>
+            <div class="panel-body">
+				<div class="btn-group">
+					<button class="switchButton switch-b on btn btn-large btn-success" type="button">Allumer</button>
+					<button class="switchButton switch-b off btn btn-large btn-danger" type="button">Eteindre</button>
+				</div>
+            </div>
+          </div>
+		</div>
+		
+		
+        <div class="col-md-4">
+          	<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">Meuble télévision</h3>
+				</div>
+            <div class="panel-body">
+				<div class="btn-group">
+					<button class="switchButton switch-c on btn btn-large btn-success" type="button">Allumer</button>
+					<button class="switchButton switch-c off btn btn-large btn-danger" type="button">Eteindre</button>
+				</div>
+            </div>
+			
+           </div>
+		   
+		</div>
+		
+      </div> 
+	    	  
+	</div>
+	
+	</div>
+	
+	
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.server-observer.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

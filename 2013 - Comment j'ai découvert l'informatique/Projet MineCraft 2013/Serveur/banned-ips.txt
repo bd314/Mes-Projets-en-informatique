@@ -1,0 +1,29 @@
+# Updated 8/19/13 6:00 AM by Minecraft 1.6.2
+# victim name | ban date | banned by | banned until | reason
+
+86.67.172.140|2013-06-02 12:53:58 +0200|(Unknown)|Forever|Banned by an operator.
+77.192.155.185|2013-06-02 18:27:35 +0200|(Unknown)|Forever|Banned by an operator.
+thefrankman007|2013-06-02 18:32:04 +0200|(Unknown)|Forever|Banned by an operator.
+82.230.208.18|2013-06-02 19:10:57 +0200|(Unknown)|Forever|Banned by an operator.
+92.143.51.44|2013-06-02 19:28:50 +0200|(Unknown)|Forever|Banned by an operator.
+90.5.246.170|2013-06-07 18:47:01 +0200|(Unknown)|Forever|Banned by an operator.
+212.68.234.192|2013-06-08 21:20:48 +0200|(Unknown)|Forever|Banned by an operator.
+85.201.215.65|2013-06-09 10:29:07 +0200|(Unknown)|Forever|Banned by an operator.
+93.16.133.234|2013-06-12 12:11:11 +0200|(Unknown)|Forever|Banned by an operator.
+83.203.253.15|2013-06-12 18:37:17 +0200|(Unknown)|Forever|Banned by an operator.
+88.172.153.48|2013-06-15 18:03:53 +0200|(Unknown)|Forever|Banned by an operator.
+195.146.253.24|2013-06-15 19:40:39 +0200|(Unknown)|Forever|Banned by an operator.
+78.232.208.101|2013-06-15 19:53:41 +0200|(Unknown)|Forever|Banned by an operator.
+88.139.151.210|2013-06-16 15:35:10 +0200|(Unknown)|Forever|Banned by an operator.
+2.6.43.220|2013-06-16 16:13:09 +0200|(Unknown)|Forever|Banned by an operator.
+88.179.42.6|2013-06-22 16:04:19 +0200|(Unknown)|Forever|Banned by an operator.
+109.29.207.29|2013-06-22 16:26:55 +0200|(Unknown)|Forever|Banned by an operator.
+60.251.11.26|2013-06-22 16:27:38 +0200|(Unknown)|Forever|Banned by an operator.
+78.224.60.185|2013-06-23 12:39:49 +0200|(Unknown)|Forever|Banned by an operator.
+90.11.175.213|2013-06-24 19:42:59 +0200|(Unknown)|Forever|Banned by an operator.
+78.88.209.180|2013-07-04 11:34:20 +0200|(Unknown)|Forever|Banned by an operator.
+82.125.156.106|2013-07-04 16:45:31 +0200|(Unknown)|Forever|Banned by an operator.
+93.14.243.248|2013-07-04 20:34:33 +0200|(Unknown)|Forever|Banned by an operator.
+93.29.253.39|2013-07-05 11:35:19 +0200|(Unknown)|Forever|Banned by an operator.
+90.51.42.48|2013-07-13 18:10:45 +0200|(Unknown)|Forever|Banned by an operator.
+77.207.239.166|2013-07-26 20:09:10 +0200|(Unknown)|Forever|Banned by an operator.

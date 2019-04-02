@@ -1,0 +1,32 @@
+socialspy: false
+timestamps:
+  login: 1375707890805
+  lastteleport: 1375711614865
+  logout: 1375711649705
+  jail: 0
+ipAddress: 109.128.89.126
+lastlocation:
+  world: Spawn
+  x: -481.1350676966304
+  y: 25.0
+  z: 249.4769386476837
+  yaw: 184.49997
+  pitch: 18.899967
+logoutlocation:
+  world: Arene
+  x: 682.3276613888773
+  y: 80.29721464080193
+  z: -29.117588289029865
+  yaw: 51.457436
+  pitch: 11.100034
+money: '38733.35000000001'
+homes:
+  home:
+    world: Faction
+    x: -255.31935989824228
+    y: 76.0
+    z: -575.7604692333446
+    yaw: 183.66248
+    pitch: 32.54979
+afk: false
+jailed: false

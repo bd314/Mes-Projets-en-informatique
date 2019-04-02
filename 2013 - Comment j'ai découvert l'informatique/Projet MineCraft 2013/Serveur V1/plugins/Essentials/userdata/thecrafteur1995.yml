@@ -1,0 +1,30 @@
+socialspy: false
+timestamps:
+  login: 1373467676034
+  lastteleport: 1373389899220
+  logout: 1373467703161
+ipAddress: 90.6.120.254
+lastlocation:
+  world: Spawn
+  x: -477.06604667903576
+  y: 25.0
+  z: 229.55048260208207
+  yaw: 290.25006
+  pitch: 25.350079
+logoutlocation:
+  world: Magellan
+  x: -223.33632656443885
+  y: 114.0
+  z: -102.26372705662222
+  yaw: -182.0987
+  pitch: 12.750129
+money: '1737.5'
+homes:
+  home:
+    world: world_nether
+    x: 65.25994488553297
+    y: 77.0
+    z: 172.25137994398122
+    yaw: 300.42456
+    pitch: 22.949814
+afk: false

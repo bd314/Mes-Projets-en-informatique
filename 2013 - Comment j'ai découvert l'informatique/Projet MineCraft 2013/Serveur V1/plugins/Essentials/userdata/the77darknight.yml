@@ -1,0 +1,38 @@
+timestamps:
+  login: 1376769214658
+  logout: 1376769260757
+  lastteleport: 1376769249616
+  jail: 0
+  mute: 0
+ipAddress: 81.53.151.215
+lastlocation:
+  world: Magellan
+  x: -160.70221588128388
+  y: 70.0
+  z: 192.71988165462042
+  yaw: 151.35002
+  pitch: 6.60003
+logoutlocation:
+  world: Magellan
+  x: -210.89106856263945
+  y: 118.875
+  z: -951.9491003930619
+  yaw: -96.61206
+  pitch: 21.900103
+money: '3076.01'
+homes:
+  home:
+    world: Magellan
+    x: -206.785015031414
+    y: 118.0
+    z: -952.0245549788855
+    yaw: 14.837856
+    pitch: 15.450096
+afk: false
+ban:
+  reason: '§4Banned:
+
+    §rThe Ban Hammer has spoken!'
+  timeout: 0
+jailed: false
+muted: false

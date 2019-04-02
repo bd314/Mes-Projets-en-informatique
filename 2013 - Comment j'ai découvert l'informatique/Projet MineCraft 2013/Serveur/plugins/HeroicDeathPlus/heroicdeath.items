@@ -1,0 +1,297 @@
+#This file contains custom names for the item a PvP killer is holding
+#The names here will be replaced in the %i marker for PvP deaths
+#File Usage:
+#NAME:ID:(optional)DATA
+#The DATA parameter is optional, and refers to materials with multiple states
+#Such as colored dyes and wool.
+#Item IDs and data values may be found on the Minecraft Wiki
+#If a mapping is not provided for an item in this file, a default name will be used automatically.
+ses doigts:0:-0x1
+de la stone:1
+de l'herbe:2
+de la terre:3
+de la cobblestone:4
+des planches de bois:5
+une pousse d'arbre:6:0x0
+une pousse d'arbre:6:0x0
+une pousse d'arbre:6:0x1
+une pousse d'arbre:6:0x1
+une pousse d'arbre:6:0x1
+une pousse d'arbre:6:0x2
+de la bedrock:7
+de l'eau:8
+de l'eau:9
+de la lave:10
+de la lave:11
+du sable:12
+du gravier:13
+du minerai d'or:14
+du minerai de fer:15
+du minerai de charbon:16
+du bois pur:17:0x0
+du bois pur:17:0x0
+du bois pur:17:0x1
+du bois pur:17:0x1
+du bois pur:17:0x1
+du bois pur:17:0x2
+des feuilles:18
+de l'éponge:19
+du verre:20
+du minerai de Lapis Lazuli:21
+un bloc de Lapis Lazuli:22
+un dispenser:23
+de la sandstone:24
+un note block:25
+un lit:26
+un rail booster:27
+un rail détecteur:28
+un piston collant:29
+une toile d'araignée:30
+de l'herbe:31
+un arbuste mort:32:0x0
+de l'herbe:32:0x1
+de l'herbe:32:0x2
+un piston:33
+un piston extendu:34
+de la laine:35:0x0
+de la laine blanche:35:0x0
+de la laine orange:35:0x1
+de la laine magenta:35:0x2
+de la laine blueue clair:35:0x3
+de la laine jaune:35:0x4
+de la laine vert clair:35:0x5
+de la laine rose:35:0x6
+de la laine grise:35:0x7
+de la laine grise:35:0x7
+de la laine grise clair:35:0x8
+de la laine bleu ciel:35:0x9
+de la laine violette:35:0xa
+de la laine bleue:35:0xb
+de la laine marron:35:0xc
+de la laine vert foncé:35:0xd
+de la laine rouge:35:0xe
+de la laine noire:35:0xf
+moving block:36
+une fleur:37
+une fleur jaune:37
+une rose:38
+une fleur rose:38
+une rose:38
+un champignon marron:39
+un champignon rouge:40
+un bloc d'or:41
+un bloc de fer:42
+une double demi-dalle de stone:43:0x0
+une double demi-dalle de sandstone:43:0x1
+une double demi-dalle de bois:43:0x2
+une double demi-dalle de cobblestone:43:0x3
+une double demi-dalle de briques:43:0x4
+une double demi-dalle de briques en stone:43:0x5
+une double demi-dalle de stone lisse:43:0x6
+une demi-dalle de stone:44:0x0
+une demi-dalle de sandstone:44:0x1
+une demi-dalle de boid:44:0x2
+une demi-dalle de cobblestone:44:0x3
+une demi-dalle de briques:44:0x4
+une demi-dalle de briques en stone:44:0x5
+une demi-dalle de stone lisse:44:0x6
+un bloc de briques:45
+de la TNT:46
+une bibliothèque:47
+de la cobblestone moussue:48
+de l'obsidian:49
+une torch:50
+du feu:51
+un spawner:52
+des escaliers en bois:53
+un coffre:54
+redstone wire:55
+du minerais de diamants:56
+un bloc de diamants:57
+une table de crafting:58
+crops:59
+de la terre cultivée:60
+un four:61
+un four allumé:62
+sign post:63
+une échelle:65
+un rail:66
+des escaliers de cobblestone:67
+wall sign:68
+un levier:69
+une plaque de pression en stone:70
+iron door block:71
+une plaque de pression en bois:72
+du minerais de redstone:73
+glowing redstone ore:74
+une torche de redstone:75
+une torche de redstone:76
+un bouton:77
+de a neige:78
+de la glace:79
+un bloc de neige:80
+un cactus:81
+un bloc d'argile:82
+de la canne à sucre:83
+un jukebox:84
+une barrière:85
+une citrouille:86
+de la netherrack:87
+du soul sand:88
+de la glowstone:89
+du portail:90
+jack o lantern:91
+un gateau:92
+un repeater de redstone:93
+un repeater de redstone:94
+un coffre verrouillé:95
+une trappe:96
+un bloc caché de silverfish en stone:97:0x0
+un bloc caché de silverfish en cobblestone:97:0x1
+un bloc caché de silverfish en stone brick:97:0x2
+une brique en stone:98:0x0
+une brique en stone moussue:98:0x1
+une brique en stone fissurée:98:0x2
+un énorme champignon marron:99
+un énorme champignon rouge:100
+des barres de fer:101
+une vitre:102
+un melon:103
+pumpkin stem:104
+melon stem:105
+des lianes:106
+une porte-barrière:107
+des escaliers en briques:108
+des escaliers en briques de stone:109
+une pelle en fer:256
+une pioche en fer:257
+une hache en fer:258
+un briquet:259
+une pomme:260
+un arc:261
+des flèches:262
+du charbon:263:0x0
+du charbon de bois:263:0x1
+du diamant:264
+un lingot de fer:265
+un lingot d'or:266
+une épée en fer:267
+une épée en bois:268
+une pelle en bois:269
+une pioche en bois:270
+une hache en bois:271
+une épée en stone:272
+une pelle en stone:273
+une pioche en stone:274
+une hache en stone:275
+une épée en diamant:276
+une pelle en diamant:277
+une pioche en diamant:278
+une hache en diamant:279
+un bâton:280
+un bol:281
+un bol de soupe:282
+une épée en or:283
+une pelle en or:284
+une pioche en or:285
+une hache en or:286
+du fil:287
+une plume:288
+de la gunpowder:289
+une houe en bois:290
+une houe en stone:291
+une houe en fer:292
+une houe en diamant:293
+une houe en or:294
+des graines:295
+du blé:296
+du pain:297
+un casque en cuir:298
+une armure de torse en cuir:299
+un pantalon en cuir:300
+des bottes en cuir:301
+un casque en cotte de mailles:302
+une armure de torse en cotte de mailles:303
+un pantalon en cotte de mailles:304
+des bottes en cotte de mailles:305
+un casque en fer:306
+une armure de torse en fer:307
+un pantalon en fer:308
+des bottes en fer:309
+un casque en diamant:310
+une armure de torse en diamant:311
+un pantalon en diamant:312
+des bottes en diamant:313
+un casque en or:314
+une armure de torse en or:315
+un pantalon en or:316
+des bottes en or:317
+du silex:318
+une côtelette de porc crue:319
+une côtelette de porc cuite:320
+un tableau painting:321
+une pomme en or:322
+un panneau:323
+une porte en bois:324
+un seau:325
+un seau d'eau:326
+un seau de lave:327
+une minecart:328
+une selle:329
+une porte en fer:330
+de la redstone:331
+une boule de neige:332
+un beateau:333
+du cuir:334
+un seau de lait:335
+une brique:336
+de l'argile:337
+de la canne à sucre:338
+du papier:339
+un livre:340
+une slimeball:341
+un minecart:342
+un minecart:343
+un oeuf:344
+une boussole:345
+une canne à pêche:346
+une montre:347
+de la poudre de glowstone:348
+du poisson cru:349
+du poisson:349
+du poisson cuit:350
+une poche d'encre:351:0x0
+du rouge de rose:351:0x1
+du vert de cactus:351:0x2
+des fèves de cacao:351:0x3
+du lapis lazuli:351:0x4
+du colorant violet:351:0x5
+du colorant bleu ciel:351:0x6
+du colorant gris clair:351:0x7
+du colorant gris:351:0x8
+du colorant rose:351:0x9
+du colorant vert citron:351:0xa
+du colorant vert:351:0xb
+du colorant bleu clair:351:0xc
+du colorant magenta:351:0xd
+du colorant orange:351:0xe
+de la poudre d'os:351:0xf
+un os:352
+du sucre:353
+un gateau:354
+un lit:355
+un repeater de redstone:356
+un cookie:357
+une carte:358
+des ciseaux:359
+un morceau de melon:360
+des graines de citrouille:361
+des graines de melon:362
+du boeuf cru:363
+un steak:364
+du poulet cru:365
+du poulet cuit:366
+de la chair pourrie:367
+une ender-perle:368
+un disque en or:2256
+un disque vert:2257

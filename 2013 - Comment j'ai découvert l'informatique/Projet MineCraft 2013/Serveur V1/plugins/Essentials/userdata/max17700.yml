@@ -1,0 +1,34 @@
+timestamps:
+  login: 1375263824166
+  lastteleport: 1375201006283
+  logout: 1375263866665
+ipAddress: 81.185.72.45
+lastlocation:
+  world: Faction
+  x: -361.31452531086455
+  y: 13.0
+  z: -402.872351770501
+  yaw: 188.68533
+  pitch: 27.750055
+money: '425.0'
+homes:
+  home:
+    world: Faction
+    x: -375.66953926965255
+    y: 60.0
+    z: -236.5662246997805
+    yaw: 319.04993
+    pitch: 12.300007
+logoutlocation:
+  world: Faction
+  x: -352.69999998807907
+  y: 22.0
+  z: -391.69999998807907
+  yaw: 99.60003
+  pitch: 66.750015
+afk: false
+ban:
+  reason: '§4Banned:
+
+    §rThe Ban Hammer has spoken!'
+  timeout: 0

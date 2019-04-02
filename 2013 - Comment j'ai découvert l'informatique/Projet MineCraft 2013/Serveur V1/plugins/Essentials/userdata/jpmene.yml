@@ -1,0 +1,24 @@
+timestamps:
+  login: 1375125900000
+  logout: 1375126122808
+ipAddress: 2.2.245.204
+lastlocation:
+  world: Spawn
+  x: -481.2258497120029
+  y: 25.0
+  z: 252.57483626904855
+  yaw: 91.049774
+  pitch: -1.200041
+ban:
+  reason: '§4Banned:
+
+    §rThe Ban Hammer has spoken!'
+  timeout: 0
+logoutlocation:
+  world: Arene
+  x: 627.4088939595214
+  y: 102.0
+  z: -34.75598875557304
+  yaw: 106.33923
+  pitch: 29.61184
+money: '200.0'

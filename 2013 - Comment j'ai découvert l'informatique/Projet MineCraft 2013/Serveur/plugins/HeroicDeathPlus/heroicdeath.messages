@@ -1,0 +1,65 @@
+#This file contains custom messages for death events.
+#You can specify as many messages as you want (within reason) for each death type.
+#Just be sure each message is on a new line under the appropriate label.
+#When a player dies, a random message from the appropriate label is chosen.
+#Accepted variables:
+# - %d holds the name of the dead player.
+# - %a holds the name of the attacking entity (player or monster) for PVP and Monster deaths.
+# - %i holds the name of the attacking player's current item for PVP deaths.
+# - %w holds the world the death occurred in
+#Custom item names may be defined in the 'heroicdeath.items' file.
+:Drown
+%d a bu la tasse *Bloup Bloup* !
+%d nage (accessoirement mort) avec les poissons ...
+%d a respiré l'eau, Trop fort ! Seul Chuck Norris peut faire ça mon gars :p
+:Cactus
+%d a mangé du cactus ...
+%d a cru que le cactus était comestible x)!
+%d s'est pris un revers piquant de la part du cactus!
+:Fire
+%d a pris feu !
+%d s'est pris pour un cracheur de feu ...
+%d a cru que le feu était comestible!
+:Explosion
+%d a pu sentir ce que ressentent les creeper grace à la tnt!
+%d s'est fait exploser la figure !
+:Creeper
+%d a pu voir que les creepers sont relativement explosifs...
+%d s'est fait creeperment bombarder!
+%d a fait un calin à un creeper :)
+:Fall
+%d a voulu sauter tête la première sur la terre ...
+%d a fait le saut de l'ange ! Joli ... Sauf la fin!
+:PVP
+%a a fait des morceaux de %d avec %i!
+%a a réduit %d en bouillie avec %i!
+:Void
+%d est maintenant dans le vide intersidéral, Trololol!
+:Monsters
+%d s'est fait tuer par un %a en colère!
+%d a voulu tuer un méchant %a ... Game over!
+:Lava
+%d a voulu boire un verre de lave ... Une tournée sur le compte de l'admin :D
+%d est devenu de l'obsidienne, trop cool!
+%d a voulu prendre un bain dans un lac de lave ... Il est propre au moins!
+:Other
+%d est mort de causes inconnues... Un /kill peut-être ? x)
+%d s'est fait disloquer par Herobrine... (Ca sent le /kill ouais!)
+%d Chuck Norris est passé par ici...
+:Suffocation
+%d s'est fait écraser par des blocs, vive la gravité :p!
+%d a obtenu la mort suprême : la Suffocation!
+:Dispenser
+%d a voulu voler le contenu d'un dispenser, Game Over !
+%d a été tué par un dispenser...
+:Lightning
+%d s'est fait électrocuter! Amazing!
+%d est électrique...
+:Suicide
+%d a commis un suicide.
+%d a voulu en finir avec cette vie, en quoi va-t-il se réincarner?
+%d a mis fin à ses jours.
+:Starvation
+%d est mort de faim.
+%d n'as pas encore compris qu'il fallait se nourrir...
+%d a oublié de manger, 'spèce de geek :p

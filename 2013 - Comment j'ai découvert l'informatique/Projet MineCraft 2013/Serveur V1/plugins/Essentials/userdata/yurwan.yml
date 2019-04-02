@@ -1,0 +1,19 @@
+logoutlocation:
+  world: Spawn
+  x: -482.30354295865624
+  y: 25.0
+  z: 242.63069235478343
+  yaw: -171.87915
+  pitch: 7.117259
+lastlocation:
+  world: world
+  x: -26.349054564560127
+  y: 80.0
+  z: 23.490887015907607
+  yaw: 57.838703
+  pitch: 7.237175
+timestamps:
+  login: 1374773945986
+  logout: 1374774085887
+ipAddress: 90.44.86.187
+money: '200.0'

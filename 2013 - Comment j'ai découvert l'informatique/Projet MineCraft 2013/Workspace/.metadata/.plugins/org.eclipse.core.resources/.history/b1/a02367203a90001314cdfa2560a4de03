@@ -1,0 +1,18 @@
+
+public class sdzl {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello world !\nI'm the \'best\'");
+		
+		//test des variables et des calculs
+		int nb , nb2 ;
+		
+		nb = 10 ;
+		nb2 = 20 ;
+		
+		System.out.print("Le résultat est :" , nb2-nb);
+
+	}
+
+}

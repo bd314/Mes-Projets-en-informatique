@@ -1,0 +1,28 @@
+timestamps:
+  login: 1376484465952
+  lastteleport: 1376485113510
+  logout: 1376485363453
+ipAddress: 79.95.125.143
+lastlocation:
+  world: Arene
+  x: 643.3495281838543
+  y: 102.0
+  z: -32.46590407571868
+  yaw: 267.44998
+  pitch: 15.449993
+logoutlocation:
+  world: Spawn
+  x: -481.5529650160333
+  y: 24.5
+  z: 164.24126453184027
+  yaw: 181.19987
+  pitch: 77.09997
+money: '350.0'
+homes:
+  home:
+    world: Arene
+    x: 729.8813238236461
+    y: 108.8815811931073
+    z: 179.84606557174556
+    yaw: 343.5
+    pitch: 50.850006

@@ -1,0 +1,35 @@
+socialspy: false
+timestamps:
+  login: 1375794510919
+  lastteleport: 1375646848697
+  logout: 1375794521961
+  mute: 0
+ipAddress: 82.244.65.92
+lastlocation:
+  world: Arene
+  x: 740.9922386900741
+  y: 79.0
+  z: 180.29134925827384
+  yaw: 96.224915
+  pitch: 15.109154
+money: '3695.0'
+homes:
+  home:
+    world: Magellan
+    x: -149.1955905483306
+    y: 73.0
+    z: 66.8851194955184
+    yaw: 187.29279
+    pitch: 19.398365
+logoutlocation:
+  world: Magellan
+  x: -150.34435162913815
+  y: 73.0
+  z: 67.0762149368534
+  yaw: 163.6973
+  pitch: 24.299957
+muted: false
+afk: false
+ban:
+  reason: Temporarily banned from server for 59 minutes 59 seconds.
+  timeout: 0

@@ -1,0 +1,93 @@
+tools:
+  tool:
+    defaultEnabled: true
+    mode: LOOKUP
+    aliases:
+    - t
+    params: area 0 all sum none limit 15 desc silent
+    leftClickBehavior: NONE
+    item: 270
+    rightClickBehavior: TOOL
+    permissionDefault: OP
+    canDrop: true
+  toolblock:
+    params: area 0 all sum none limit 15 desc silent
+    permissionDefault: OP
+    rightClickBehavior: BLOCK
+    item: 7
+    mode: LOOKUP
+    canDrop: false
+    defaultEnabled: true
+    aliases:
+    - tb
+    leftClickBehavior: TOOL
+mysql:
+  user: consolemc3239
+  port: 3306
+  password: 13c9cf3a63
+  host: 88.190.52.48
+  database: consolemc3239
+logging:
+  hiddenBlocks:
+  - 0
+  logCreeperExplosionsAsPlayerWhoTriggeredThese: false
+  logPlayerInfo: false
+  ignoredChat:
+  - /register
+  - /login
+  hiddenPlayers: []
+  logKillsLevel: PLAYERS
+consumer:
+  timePerRun: 1000
+  useBukkitScheduler: true
+  forceToProcessAtLeast: 200
+  queueWarningSize: 1000
+  fireCustomEvents: false
+  delayBetweenRuns: 2
+lookup:
+  dateFormat: MM-dd HH:mm:ss
+  linesLimit: 1500
+  defaultTime: 30 minutes
+  defaultDist: 20
+  linesPerPage: 15
+questioner:
+  askClearLogs: true
+  banPermission: mcbans.ban.local
+  askRollbacks: true
+  askRedos: true
+  askClearLogAfterRollback: true
+  askRollbackAfterBan: false
+loggedWorlds:
+- world
+- world_nether
+- world_the_end
+- Spawn
+- Magellan
+- Arene
+- Eldaria
+- event
+- end
+clearlog:
+  enableAutoClearLog: false
+  auto:
+  - world "world" before 365 days all
+  - world "world" player lavaflow waterflow leavesdecay before 7 days all
+  - world world_nether before 365 days all
+  - world world_nether player lavaflow before 7 days all
+  autoClearLogDelay: 6h
+  dumpDeletedLog: false
+rollback:
+  replaceAnyway:
+  - 8
+  - 9
+  - 10
+  - 11
+  - 51
+  maxArea: 50
+  dontRollback:
+  - 10
+  - 11
+  - 46
+  - 51
+  maxTime: 2 days
+version: '1.70'

@@ -1,0 +1,15 @@
+logoutlocation:
+  world: world
+  x: -1.5
+  y: 80.0
+  z: -9.5
+  yaw: 0.0
+  pitch: 0.0
+lastlocation:
+  world: world
+  x: -1.5
+  y: 80.0
+  z: -9.5
+  yaw: 0.0
+  pitch: 0.0
+money: '200.0'

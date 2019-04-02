@@ -1,0 +1,24 @@
+package apprentissage;
+
+public class premierefois {
+	
+	public static void main(String[] args){
+		//TODO 
+		System.out.println("Luck");
+		System.out.print("Je suis ton père");
+		System.out.print("\nEt tu es mon fils.\n");
+		
+		String produit;
+		produit="R2D";
+		
+		float model;
+		model = 2; 
+		
+		System.out.print(produit+model);
+		
+		
+		}
+
+}
+
+

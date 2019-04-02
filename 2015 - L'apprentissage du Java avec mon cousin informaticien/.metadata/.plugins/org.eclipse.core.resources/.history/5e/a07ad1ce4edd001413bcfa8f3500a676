@@ -1,0 +1,13 @@
+package cours;
+
+public class cours1 {
+	
+	public static void main(String[] args) {
+		int[] tableau = new int [10];
+	
+		tableau[0] = 3;
+		
+		System.out.println(tableau[0]);
+	}	
+
+}

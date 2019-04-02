@@ -1,0 +1,2 @@
+cat domod/module/433/eta433 | sed "s/$1:[0-9]/$1:$2/" > domod/module/433/eta433.tmp && mv domod/module/433/eta433.tmp domod/module/433/eta433 && cp 
+domod/module/433/eta433 /domod/web && mv /domod/web/eta433 /domod/web/eta433.txt

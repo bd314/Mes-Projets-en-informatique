@@ -1,0 +1,31 @@
+timestamps:
+  login: 1376818216941
+  lastteleport: 1376807415146
+  logout: 1376818230792
+ipAddress: 82.122.56.55
+lastlocation:
+  world: Spawn
+  x: -489.84841425288914
+  y: 25.0
+  z: 248.5875581750236
+  yaw: -65.334885
+  pitch: 26.248335
+homes:
+  home:
+    world: Magellan
+    x: 3831.769540880549
+    y: 63.0
+    z: 1415.574999988079
+    yaw: 180.4378
+    pitch: 37.706226
+money: '5310.0'
+logoutlocation:
+  world: Spawn
+  x: -482.8477438722831
+  y: 25.0
+  z: 239.57306244988897
+  yaw: 201.81299
+  pitch: 14.535452
+afk: false
+mail:
+- 'Mixelcraft10: tu m''envoie un e-mail quand tu es conncté!'

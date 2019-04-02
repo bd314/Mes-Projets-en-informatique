@@ -1,0 +1,31 @@
+#LED WS2801 Hauteur
+ .H
+ FastLED.setCorrection( CRGB( 255, 145, 245) );
+ .cpp 
+ #define DATA_PIN     D7    
+ #define CLK_PIN      D8     
+ #define LED_TYPE      WS2801
+ #define COLOR_ORDER   RGB 
+ #define NUM_LEDS 71       
+
+
+
+#LED WS2801 Blanche
+ .H
+ FastLED.setCorrection( CRGB( 125, 245, 70) );
+ .cpp 
+ #define DATA_PIN     D7    
+ #define CLK_PIN      D8     
+ #define LED_TYPE      WS2801
+ #define COLOR_ORDER   RBG //RGB
+ #define NUM_LEDS 74       
+
+#LED WS2801 Blanche Lampes 35 / 36
+ .H
+ FastLED.setCorrection( CRGB( 125, 245, 70) );
+ .cpp 
+ #define DATA_PIN     D7    
+ #define CLK_PIN      D8     
+ #define LED_TYPE      WS2801
+ #define COLOR_ORDER   RBG //RGB
+ #define NUM_LEDS 35 / 36       

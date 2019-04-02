@@ -1,0 +1,38 @@
+timestamps:
+  login: 1374885498712
+  logout: 1374886903718
+  lastteleport: 1374792412827
+ipAddress: 92.144.26.149
+lastlocation:
+  world: Magellan
+  x: -64.56227906308357
+  y: 67.0
+  z: 59.33142159139755
+  yaw: -189.19168
+  pitch: 84.82074
+logoutlocation:
+  world: Magellan
+  x: -153.00598738327255
+  y: 83.06555455445569
+  z: -18.33075022051294
+  yaw: -190.55443
+  pitch: 21.518532
+afk: false
+nickname: R98
+homes:
+  event:
+    world: Event
+    x: 1424.3695301197617
+    y: 8.0
+    z: -750.1896995762821
+    yaw: -183.69653
+    pitch: 56.162086
+  ville:
+    world: Magellan
+    x: -68.4947059878676
+    y: 105.0
+    z: 54.92888307061632
+    yaw: 3.7133179
+    pitch: 70.77916
+money: '225.0'
+godmode: true

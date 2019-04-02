@@ -1,0 +1,7 @@
+activatorItemID: 259
+allowOnlyOps: 'Deprecated, use allowOnlyPermitted instead. (perm to add : "lumosmaxima.poweron")'
+allowOnlyPermitted: false
+displayLightOnMessage: true
+displayNoPermissionsMessage: true
+woodenPressurePlateCanInteract: false
+stonePressurePlateCanInteract: false

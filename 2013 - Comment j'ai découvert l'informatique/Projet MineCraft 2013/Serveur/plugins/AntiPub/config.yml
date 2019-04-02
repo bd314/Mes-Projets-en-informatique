@@ -1,0 +1,31 @@
+# Welcome to the AntiPub configuration. To get started you may either:
+# (A) run the plugin as-is, or (B) change values as instructed.
+
+Global:
+  custom-filters:
+  - \b0*(2(5[0-5]|[0-4]\d)|1?\d{1,2})(\.0*(2(5[0-5]|[0-4]\d)|1?\d{1,2})){3}\b
+  custom-filter-override: false
+  log-alerts: true
+  log-display: true
+IPv4:
+  block-protocol: true
+  exemptions:
+  - 192.168.1.1
+  user-alert: true
+  user-notification: <user>, faire de la pub pour un autre serveur est interdit.
+  admin-alert: true
+  admin-notification: '&6<user>@<ip>.<hostname> a envoyer ce msg : &4<message>'
+  user-attempts: 1
+  action: /mute <user>
+  log-alert: true
+URL:
+  block-protocol: true
+  exemptions:
+  - google.com
+  user-alert: true
+  user-notification: <user>, parler de site n'est pas autoriser .
+  admin-alert: true
+  admin-notification: '<user>@<ip>.<hostname> a parler de ce site : <message>'
+  user-attempts: 2
+  action: /tell <user> Tu n'as pas compris que tu n'as pas le droit ?
+  log-alert: true

@@ -1,0 +1,51 @@
+<?php 
+// Get parameter 
+
+$getSwitch = $_GET['switch']; 
+$getTargetState = $_GET['state']; 
+
+// Make it safe 
+
+switch($getSwitch) {
+	case "a":
+		$switch = 1;
+		$code_switch_on = 5510485;
+		$code_switch_off = 5510484;
+		break;
+	case "b":
+		$switch = 2;
+		$code_switch_on = 5522773;
+		$code_switch_off = 5522772;
+		break;
+	case "c":
+		$switch = 3;
+		$code_switch_on = 5525845;
+		$code_switch_off = 5525844;
+		break;
+	case "d":
+		$switch = 4;
+		break;
+	default:
+		die("ERROR");
+}
+// Call RPi_utils codesend
+if($getTargetState === '1' and $switch != '4' ) {
+	shell_exec('sudo /433/433Utils/RPi_utils/codesend '.$code_switch_on);
+	echo "SUCCESS";
+} elseif ($getTargetState === '0' and $switch != '4' ) {
+	shell_exec('sudo /433/433Utils/RPi_utils/codesend '.$code_switch_off);
+	echo "SUCCESS";
+}elseif ($getTargetState === '1' and $switch === '4') {
+	shell_exec('sudo /433/433Utils/RPi_utils/codesend 5510485');
+	shell_exec('sudo /433/433Utils/RPi_utils/codesend 5522773');
+	shell_exec('sudo /433/433Utils/RPi_utils/codesend 5525845');
+	echo "SUCCESS";
+}elseif($getTargetState === '0' and  $switch === '4'){
+	shell_exec('sudo /433/433Utils/RPi_utils/codesend 5510484');
+	shell_exec('sudo /433/433Utils/RPi_utils/codesend 5522772');
+	shell_exec('sudo /433/433Utils/RPi_utils/codesend 5525844');
+	echo "SUCCESS";
+}else {
+	die("ERROR");
+}
+?>

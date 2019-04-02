@@ -1,0 +1,417 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/***************************************************/
+body {
+	background:#f0f0f0;
+}
+xmp {
+	background:#f9f9f9;
+	padding:5px 15px;
+}
+/*This is used only for demostration. Delete 
+  this class so as the on in the HTML file*/
+.wrapper {
+	margin:20px auto;
+	width:600px;
+}
+
+/*	DELETE THIS IN YOUR PROJECT
+************************************************************/
+.cb {
+	clear:both;
+}
+.info {
+	margin-top:50px;
+	padding:40px;
+	background:white;
+	font-family:Arial;
+	overflow:hidden;
+	border:1px solid #ccc;
+	line-height:1.6em;
+}
+.info span {
+	font-weight:bold;
+	display: block;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family:Helvetica, Verdana;
+	text-transform:uppercase;
+	margin-bottom:20px;
+}
+h1 {
+	font-size:26px;
+}
+
+blockquote {
+	font-size: 17px; 
+	line-height: 24px; 
+	color: #777; 
+	font-style: italic;
+	margin: 20px 0 20px 0; 
+	padding: 5px 20px; 
+	border-left: 1px solid #ddd; 
+}
+
+a {
+	color:#008bf5;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+
+.sep{
+	height:50px;
+}
+
+/* PRICING TABLE MAIN STYLE 
+============================================================*/
+
+/* The main pricing table container */
+.pricing-table-pack::after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.pricing-table,
+.table-holder .description {
+	width:200px;
+	overflow:hidden;
+	font-size: 1em;
+	float:left; /* delete later if needed*/
+	-webkit-transition: all 0.1s ease-out; 
+	   -moz-transition: all 0.1s ease-out; 
+	     -o-transition: all 0.1s ease-out; 
+	        transition: all 0.1s ease-out;
+}
+.pricing-table:hover,
+.pricing-table.static.featured {
+	box-shadow:0 0 20px #000;
+	z-index:999;
+	position:relative;
+	margin-top:-5px;
+}
+.pricing-table.static.featured {z-index:1000;}
+.pricing-table.static {
+	box-shadow:none;
+	margin:0;
+}
+.table-holder .description { margin-top:168px; margin-left:20px;}
+.table-holder .description ul li {
+	text-align:center;
+	padding:10px 0;
+	font-family:arial;
+	color:#555;
+	text-shadow:0 1px 0 #fff;
+}
+.table-holder .description ul li:nth-child(2n) {
+	margin:0 -1px;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+	border-left: 8px solid #ccc;
+	background-color: #e5e5e5;
+}
+/* -------------Style the .top -------------*/
+/* Main style. Edit the defaut values here*/
+.pricing-table .top,
+.pricing-table.static.featured .top {
+	position:relative;
+	color:white;
+
+	background-color: #ccc; /* Defaut background-color */
+	background-image: url("../img/pattern.png"); /* The background pattern */
+
+	/* box-shadow: x-axsis ; y-axis ; feather ; color (R, G, B, Alpha) */
+	box-shadow:inset 0 0 100px rgba(0, 0, 0, 0.5); /* The shadow with transparency */
+}
+
+/* Coloring the .top (add new by the same principles as below)*/
+.pricing-table.red .top,
+.pricing-table.static.featured.red .top 		{ background-color: #f90000; }		
+
+.pricing-table.green .top,
+.pricing-table.static.featured.green .top 		{ background-color: #719426; }		
+
+.pricing-table.blue .top,
+.pricing-table.static.featured.blue .top 		{ background-color: #008bf5; }	
+
+.pricing-table.orange .top,
+.pricing-table.static.featured.orange .top 		{ background-color: #FFA200; }
+
+.pricing-table.dark-gray .top,
+.pricing-table.static.featured.dark-grey .top 	{ background-color: #545454; }
+
+.pricing-table.white .top,
+.pricing-table.static.featured.white .top 		{ background-color: #FFFFFF; color: #333;}
+
+.pricing-table.pink .top,
+.pricing-table.static.featured.pink .top 		{ background-color: #F700FF; }
+
+
+/* -------------Style the prices -------------*/
+.pricing-table .top .price{ height:80px; }
+
+/* Position and Styling the Numbers in .top */
+.pricing-table .top .big-num,
+.pricing-table .top .small-num,
+.pricing-table .top .curency {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	position:absolute;
+}
+.pricing-table .top .big-num {
+	font-size:80px;
+	display:block;
+	left:77px;
+}
+.pricing-table .top .small-num {
+	right:43px;
+	top:48px;
+
+}
+.pricing-table .top .curency {
+	font-size:40px;
+	right:40px;
+	top:72px;
+
+}
+.pricing-table .top .period {
+	text-align:center;
+	display:block;
+	font-family:Helvetica;
+	padding-bottom:5px;
+}
+
+.pricing-table .top .heading {
+	color:white;
+	font-family:Arial;
+	font-size:1.3em;
+	text-transform:uppercase;
+	text-align:center;
+	padding:10px 0;
+	display:block;
+	background:url("../img/top-bg.png");
+	min-height:20px;
+}
+
+/* -------------Style the images (between price and table) -------------*/
+.loops { position:relative;}
+.loops .left-loop,
+.loops .right-loop {
+	background-color:transparent;
+	background:url("../img/loop.png") no-repeat;
+	width:10px;
+	height:29px;
+	top:-13px;
+}
+.loops .left-loop {
+	left:10px;
+	position: relative;
+	float:left;
+}
+.loops .right-loop {
+	position: relative;
+	right:10px;
+	float:right;
+}
+
+/* -------------Style the price table (text and numbers) -------------*/
+.table {
+	background: white; /* Basic (defaut) */
+	margin-top:5px;
+	padding-top:20px;
+	padding-bottom:10px;
+	background: -moz-linear-gradient(top, #eee, #fff 30%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee), color-stop(.3, #fff)); 
+    box-shadow:inset 0 1px 0 #fff;
+    border:1px solid #ccc;
+}
+.pricing-table.static.featured .table { padding-top:25px; }
+.table ul li {
+	text-align:center;
+	padding:10px 0;
+	font-family:arial;
+	color:#555;
+	text-shadow:0 1px 0 #fff;
+}
+.table ul li:nth-child(2n) {
+	margin:0 -1px;
+	border:1px solid #ccc;
+
+	/* Cross browser compability */
+	background-color: #f0f0f0;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#eee)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #f5f5f5, #eee); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #f5f5f5, #eee); /* FF3.6+ */
+	background-image:      -o-linear-gradient(top, #f5f5f5, #eee); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #f5f5f5, #eee);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#EEEEEE');
+}
+/* Coloring the numbers*/
+.pricing-table.red .table ul li span 	{ color:#f90000; }
+.pricing-table.green .table ul li span 	{ color:#719426; }
+.pricing-table.blue .table ul li span 	{ color:#008bf5; }
+.pricing-table.orange .table ul li span { color:#FFA200; }
+.pricing-table.dark-gray .table ul li span { color:#000000; }
+.pricing-table.white .table ul li span 	{ color:#000000; }
+.pricing-table.pink .table ul li span 	{ color:#F700FF; }
+
+.button-wrapper {
+	background:#f0f0f0 url("../img/pattern.png"); /* Change with the pattern you want */
+	padding:20px;
+	text-align:center;
+	border:1px solid #ccc;
+	margin-top:-1px;
+}
+/* [Buy it!] button styled as Anchor tag */
+.button-wrapper a.button {
+	padding:5px 10px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(#dcdcdc)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #f0f0f0, #dcdcdc); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #f0f0f0, #dcdcdc); /* FF3.6+ */
+	background-image:      -o-linear-gradient(top, #f0f0f0, #dcdcdc); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #f0f0f0, #dcdcdc);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#dcdcdc');
+	text-decoration:none;
+	color:#555;
+	font-family:"Droid sans", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	border:1px solid #bbb;
+	border-radius:3px;
+	box-shadow:0 0 5px #ccc;
+	text-shadow:0 1px 0 #fff;
+}
+/* Add the styles for more colors */
+/* Example: <a href="button red">Buy it!</a> */
+.pricing-table a.button:hover{ 
+	background:#f0f0f0; 
+}
+.pricing-table a.button:active{ 
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#C7C7C7), to(#E3E3E3)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #C7C7C7, #E3E3E3); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #C7C7C7, #E3E3E3); /* FF3.6+ */
+	background-image:      -o-linear-gradient(top, #C7C7C7, #E3E3E3); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #C7C7C7, #E3E3E3);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C7C7C7', endColorstr='#E3E3E3');
+}
+
+/* Coloring the botton line */
+.pricing-table.red .bottom-line {
+	height:15px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f90000), to(#ad0000)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #f90000, #ad0000); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #f90000, #ad0000); /* FF3.6+ */
+	background-image:      -o-linear-gradient(top, #f90000, #ad0000); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #f90000, #ad0000);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f90000', endColorstr='#ad0000');
+}
+.pricing-table.green .bottom-line {
+	height:15px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#719426), to(#526a1d)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #719426, #526a1d); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #719426, #526a1d); /* FF3.6+ */
+	background-image:      -o-linear-gradient(top, #719426, #526a1d); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #719426, #526a1d);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#719426', endColorstr='#526a1d');
+}
+.pricing-table.blue .bottom-line {
+	height:15px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#008bf5), to(#0063af)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #008bf5, #0063af); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #008bf5, #0063af); /* FF3.6+ */
+	background-image:      -o-linear-gradient(top, #008bf5, #0063af); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #008bf5, #0063af);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008bf5', endColorstr='#0063af');
+}
+.pricing-table.orange .bottom-line {
+	height:15px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFA200), to(#CF8300)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #FFA200, #CF8300); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #FFA200, #CF8300); /* FF3.6+ */
+	background-image:      -o-linear-gradient(top, #FFA200, #CF8300); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #FFA200, #CF8300);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFA200', endColorstr='#CF8300');
+}
+.pricing-table.dark-grey .bottom-line {
+	height:15px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F700FF), to(#B200B8)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #F700FF, #B200B8); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #F700FF, #B200B8); /* FF3.6+ */
+	background-image:      -o-linear-gradient(top, #F700FF, #B200B8); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #F700FF, #B200B8);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F700FF', endColorstr='#B200B8');
+}
+.pricing-table.white .bottom-line {
+	height:15px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F9F9F9), to(#D1D1D1)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #F9F9F9, #D1D1D1); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #F9F9F9, #D1D1D1); /* FF3.6+ */
+	background-image:      -o-linear-gradient(top, #F9F9F9, #D1D1D1); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #F9F9F9, #D1D1D1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F700FF', endColorstr='#B200B8');
+}
+.pricing-table.pink .bottom-line {
+	height:15px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F700FF), to(#B200B8)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #F700FF, #B200B8); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #F700FF, #B200B8); /* FF3.6+ */
+	background-image:      -o-linear-gradient(top, #F700FF, #B200B8); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #F700FF, #B200B8);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F700FF', endColorstr='#B200B8');
+}
+
+/* Fix the floatings (clearfix) */
+.table-holder:after {
+	content: ".";
+	display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}

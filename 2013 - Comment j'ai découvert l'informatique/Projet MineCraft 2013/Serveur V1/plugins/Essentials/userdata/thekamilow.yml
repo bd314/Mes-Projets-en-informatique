@@ -1,0 +1,40 @@
+socialspy: false
+timestamps:
+  login: 1376505770278
+  lastteleport: 1376485921159
+  logout: 1376505989778
+  mute: 0
+ipAddress: 2.80.1.180
+lastlocation:
+  world: Arene
+  x: 942.3000000119209
+  y: 83.2790179943617
+  z: 85.77520912747595
+  yaw: 84.895676
+  pitch: 9.150016
+logoutlocation:
+  world: Arene
+  x: 932.1782656652306
+  y: 100.92071177141632
+  z: 90.16995100804559
+  yaw: 87.746124
+  pitch: 26.40001
+homes:
+  home:
+    world: Magellan
+    x: 3786.371222203995
+    y: 75.0
+    z: 929.9504067173901
+    yaw: -268.20154
+    pitch: 35.849934
+money: '10000000000000'
+muted: false
+afk: false
+powertools:
+  '369':
+  - warp Marché
+  '346':
+  - lightning
+mail:
+- 'IchigoExoUltime: Qu''es qui fous dans cette histoir lui ?'
+- 'IchigoExoUltime: Sa marche les / mails oO'' ?'

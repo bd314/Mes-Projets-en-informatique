@@ -1,0 +1,4 @@
+KillMessage: '&bTu as tue &6%player%! &bTu gagne &5$%amount%!'
+RandomAmount: false
+RandomAmountMax: 50
+FixedAmount: 25

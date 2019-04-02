@@ -1,0 +1,19 @@
+timestamps:
+  login: 1376409928395
+  logout: 1376409930468
+ipAddress: 83.200.73.122
+lastlocation:
+  world: Arene
+  x: 644.0527355439526
+  y: 102.0
+  z: -33.0770689125762
+  yaw: 326.67566
+  pitch: 14.436267
+logoutlocation:
+  world: Magellan
+  x: -192.018988593701
+  y: 64.0
+  z: 91.3409208384757
+  yaw: -0.5230582
+  pitch: 48.12086
+money: '200.0'

@@ -1,0 +1,41 @@
+package cours;
+
+import java.util.Scanner;
+
+public class cours1_s {
+
+	public static float lireFloat() {
+
+		Scanner sc = new Scanner(System.in);
+
+		float nb = sc.nextFloat();
+		
+		return nb;
+
+	}
+	
+	public static int lireInt() {
+
+		Scanner sc = new Scanner(System.in);
+
+		int nb = sc.nextInt();
+		
+		
+		return nb;
+
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println("Valeur de a = ");
+		float a = lireFloat();
+		System.out.print(a);
+		
+		System.out.println("Valeur de b = ");
+		int b = lireInt();
+		System.out.print(b);
+
+
+	}
+
+}

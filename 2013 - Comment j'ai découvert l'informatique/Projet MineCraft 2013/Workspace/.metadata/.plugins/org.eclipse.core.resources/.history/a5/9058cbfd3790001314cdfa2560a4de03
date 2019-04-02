@@ -1,0 +1,12 @@
+
+public class sdzl {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello world !\nI'm the \'best\'");
+		int nb;
+		nb = 10 ;
+
+	}
+
+}

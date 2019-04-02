@@ -1,0 +1,41 @@
+colors:
+  message: RED
+  name: DARK_AQUA
+  item: GOLD
+log:
+  data: true
+  messages: true
+  time:
+    format: MM/dd/yyyy HH:mm:ss z
+  files:
+    data: death_data.log
+    messages: death_messages.log
+events:
+  only: false
+monsters:
+  unknown: Unknown
+  monster: Monstre
+  pigzombie: Cochon Zombie
+  zombie: Zombie
+  skeleton: Skeleton
+  spider: Araignee
+  creeper: Creeper
+  ghast: Ghast
+  slime: Slime
+  giant: Geant
+  wolf: Loup
+  enderman: Enderman
+  silverfish: Silverfish
+  magmacube: MagmaCube
+  blaze: Blaze
+  cavespider: Araignee des cavernes
+  enderdragon: EnderDragon
+  irongolem: IronGolem
+  wither: Wither
+  witch: Witch
+options:
+  useDisplayName: false
+  serverBroadcast: true
+  worlds:
+    quiet: []
+    loud: []

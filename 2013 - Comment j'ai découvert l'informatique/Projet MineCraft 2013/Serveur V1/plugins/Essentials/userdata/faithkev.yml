@@ -1,0 +1,19 @@
+timestamps:
+  login: 1376083339420
+  logout: 1376083420022
+ipAddress: 2.5.139.45
+lastlocation:
+  world: Spawn
+  x: -481.2258497120029
+  y: 25.0
+  z: 252.57483626904855
+  yaw: 91.049774
+  pitch: -1.200041
+logoutlocation:
+  world: Magellan
+  x: -213.98172371981553
+  y: 64.0
+  z: 149.28760235617142
+  yaw: 118.199974
+  pitch: 64.35
+money: '200.0'

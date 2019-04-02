@@ -1,0 +1,1 @@
+cat /433/433Utils/RPi_utils/eta433 | sed "s/$1:[0-9]/$1:$2/" > /433/433Utils/RPi_utils/eta433.tmp && mv /433/433Utils/RPi_utils/eta433.tmp /433/433Utils/RPi_utils/eta433 && cp /433/433Utils/RPi_utils/eta433 /433/web && mv /433/web/eta433 /433/web/eta433.txt

@@ -1,0 +1,1 @@
+[29-Aug-2013 08:28:34 America/Denver] PHP Fatal error:  Call to undefined function get_bloginfo() in /home5/fyreukco/public_html/wp-content/plugins/usquare/usquare_class.php on line 20

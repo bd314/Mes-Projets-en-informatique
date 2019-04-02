@@ -1,0 +1,114 @@
+{
+  "135": {
+    "sourceCoord": {
+      "worldName": "Spawn",
+      "x": -450,
+      "y": 34,
+      "z": 243
+    }
+  },
+  "138": {
+    "sourceCoord": {
+      "worldName": "Spawn",
+      "x": -463,
+      "y": 24,
+      "z": 149
+    }
+  },
+  "147": {
+    "sourceCoord": {
+      "worldName": "Spawn",
+      "x": -467,
+      "y": 22,
+      "z": 243
+    }
+  },
+  "148": {
+    "sourceCoord": {
+      "worldName": "Arene",
+      "x": 723,
+      "y": 120,
+      "z": 176
+    }
+  },
+  "139": {
+    "sourceCoord": {
+      "worldName": "Spawn",
+      "x": -483,
+      "y": 71,
+      "z": 345
+    }
+  },
+  "156": {
+    "sourceCoord": {
+      "worldName": "Spawn",
+      "x": -463,
+      "y": 22,
+      "z": 239
+    }
+  },
+  "155": {
+    "sourceCoord": {
+      "worldName": "Arene",
+      "x": 928,
+      "y": 84,
+      "z": 81
+    }
+  },
+  "152": {
+    "sourceCoord": {
+      "worldName": "Spawn",
+      "x": -477,
+      "y": 24,
+      "z": 135
+    }
+  },
+  "10": {
+    "sourceCoord": {
+      "worldName": "Spawn",
+      "x": -494,
+      "y": 62,
+      "z": 193
+    }
+  },
+  "150": {
+    "sourceCoord": {
+      "worldName": "Spawn",
+      "x": -467,
+      "y": 22,
+      "z": 236
+    }
+  },
+  "151": {
+    "sourceCoord": {
+      "worldName": "Magellan",
+      "x": -129,
+      "y": 72,
+      "z": 373
+    }
+  },
+  "62": {
+    "sourceCoord": {
+      "worldName": "Arene",
+      "x": 640,
+      "y": 101,
+      "z": -42
+    }
+  },
+  "140": {
+    "sourceCoord": {
+      "worldName": "Spawn",
+      "x": -483,
+      "y": 81,
+      "z": 345
+    }
+  },
+  "141": {
+    "sourceCoord": {
+      "worldName": "Magellan",
+      "x": -150,
+      "y": 75,
+      "z": 211
+    }
+  }
+}

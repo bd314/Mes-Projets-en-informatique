@@ -1,0 +1,268 @@
+#Configuration for CompassNavigation by Adzwoolly!
+#Each number represents the slot in the Compass GUI.
+#If the slot is not in use, set Enabled to False!
+#Item is the item to represent the teleport in the Compass GUI.
+#USE THE WORDS FROM THE LINK FOR ITEMS!
+#http://jd.bukkit.org/dev/doxygen/d6/d0e/enumorg_1_1bukkit_1_1Material.html
+#I think it's caps sensitive, so be careful!
+#Please use a whole number (not decimal) for Yaw and Pitch
+#Pitch: -90 = Sky, +90 = Floor
+#Name Can have colour codes.  The colourcode is '~' e.g.  '~6' for gold
+#Up to 3 rows are supported
+
+Item: COMPASS
+GUIName: -Warp De MineCryms-
+Rows: 1
+1:
+  Enabled: true
+  Item: BEACON
+  Name: Le Spawn de ~6MineCryms
+  World: Spawn
+  X: -482
+  Y: 25
+  Z: 252
+  Yaw: 89
+  Pitch: 1
+2:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+3:
+  Enabled: true
+  Item: DIAMOND_SWORD
+  Name: ~8Que Le meilleur gagne dans ce monde de ~4Feux!
+  World: Arene
+  X: 636
+  Y: 103
+  Z: -33
+  Yaw: -89
+  Pitch: 3
+4:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+5:
+  Enabled: true
+  Item: GRASS
+  Name: Construisez votre propre maison , ~6Amusez vous !
+  World: magellan
+  X: -124
+  Y: 66
+  Z: 262
+  Yaw: 86
+  Pitch: 1
+6:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+7:
+  Enabled: True
+  Item: GOLD_NUGGET
+  Name: Shop
+  World: spawn
+  X: -483
+  Y: 72
+  Z: 295
+  Yaw: -1
+  Pitch: 0
+8:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+9:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+10:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+11:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+12:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+13:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 
+14:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+15:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+16:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+17:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+18:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+19:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+20:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+21:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+22:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 
+23:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+24:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+25:
+  Enabled: false
+  Item: GRASS
+  Name: Default
+  World: world
+  X: 0
+  Y: 60
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+DisabledWorlds:
+  - myworld
+  - potatoworld

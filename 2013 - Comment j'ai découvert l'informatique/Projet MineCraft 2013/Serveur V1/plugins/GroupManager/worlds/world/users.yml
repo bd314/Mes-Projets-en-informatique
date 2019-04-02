@@ -1,0 +1,18 @@
+users:
+  bd314:
+    group: Owner
+    subgroups: []
+    permissions: []
+  explode03:
+    group: Modo
+    subgroups: []
+    permissions: []
+  Noroox:
+    group: Modo
+    subgroups: []
+    permissions:
+    - essentials.warps.event
+  TheKamilow:
+    group: Admin
+    subgroups: []
+    permissions: []

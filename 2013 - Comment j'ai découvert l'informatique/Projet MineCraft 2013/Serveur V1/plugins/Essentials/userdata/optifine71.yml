@@ -1,0 +1,29 @@
+timestamps:
+  login: 1375202996162
+  logout: 1375203146962
+  lastteleport: 1375199409937
+ipAddress: 78.242.144.12
+lastlocation:
+  world: Arene
+  x: 643.256428408114
+  y: 102.0
+  z: -32.68962738862312
+  yaw: 273.0
+  pitch: 18.900017
+logoutlocation:
+  world: Faction
+  x: -363.8830287821532
+  y: 18.0
+  z: -403.2380900388924
+  yaw: -127.81445
+  pitch: 33.750107
+money: '200.0'
+afk: false
+homes:
+  home:
+    world: Faction
+    x: -369.8736075177299
+    y: 20.0
+    z: -405.2213638746401
+    yaw: 4.0490036
+    pitch: 15.750118

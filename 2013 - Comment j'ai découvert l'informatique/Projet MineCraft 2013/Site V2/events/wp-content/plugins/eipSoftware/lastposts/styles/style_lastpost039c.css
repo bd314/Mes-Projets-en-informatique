@@ -1,0 +1,137 @@
+@CHARSET "UTF-8";
+/* ---------------- BEGIN Table Title 						-----------------*/
+span.eiplastpost
+{
+	font-size: 			16px;
+	font-weight:		bold;
+}
+span.eiplastpost a
+{
+	text-decoration:	underline;
+	color:				#000000;
+}
+span.eiplastpost a:hover
+{
+	text-decoration:	underline;
+	color: 				red;
+}
+p.eiplastpost
+{
+	font-size: 			12px;
+	text-align:			left;
+}
+
+/* ---------------- END Table Title 						-----------------*/
+/* ---------------- BEGIN Last Post Forums Table			-----------------*/
+table.tblforums
+{
+	width:			440px;
+	margin-top:		8px;
+	border-collapse:	collapse;
+	color: 			#000000;
+	font-size: 		12px;
+}
+table.tblforums th		
+{
+	text-align: 		left;
+	font-size: 14px;
+}
+table.tblforums th.col1	{width:	235px;}
+table.tblforums th.col2	{width:	60px;}
+table.tblforums th.col3	{width:	145px;}
+
+table.tblforums td
+{
+    text-align: 		left;
+}
+table.tblforums td.thread
+{
+	width:			235px;
+	border-top: 		solid 1px #9A9A9A;
+}
+table.tblforums td.posts
+{
+	width:			60px;
+	border-top: 		solid 1px #9A9A9A;
+}
+table.tblforums td.lastdate
+{
+	width:			145px;
+	border-top: 		solid 1px #9A9A9A;
+}
+table.tblforums a
+{
+	text-decoration: 	underline;
+	color:			#000000;
+}
+table.tblforums a:hover 	
+{
+	color: 			red;
+}
+/* ---------------- END   Last Post Forums Table			-----------------*/
+
+/* ---------------- BEGIN Last Post Sidebar Table			-----------------*/
+div.eipWidgetLPShell
+{
+	clear:	both;
+	float:	left;
+	width:	100%;
+}
+div.eipWidgetLPTopRow
+{
+	float:	left;
+	width:	100%;
+}
+div.eipWidgetLPTopRow a
+{
+	font-size:	18px;
+	color:	#121212;
+}
+div.eipLPThread
+{
+	float:	left;
+	width:	100%;
+	border-top:	solid 1px #d3d3d3;
+}
+div.eipLPUserName
+{
+	float: 	left;
+	width:	40%;
+}
+div.eipLPDate
+{
+	float:	left;
+	width:	26%;
+	padding-left:4px;
+}
+/* ---------------- END   Last Post Sidebar Table			-----------------*/
+
+/* ---------------- BEGIN Last Post Sidebar List			-----------------*/
+div.eipLPAvatar
+{
+	clear:	both;
+	float: 	left;
+	width:	52px;
+	height:	54px;
+	padding-top: 4px;
+	border-top:	solid 1px #d3d3d3;
+}
+div.eipLPListTitle
+{
+	float: 	left;
+	width:	66%;
+	height:	32px;
+	padding: 4px 0px 0px 4px;
+	border-top:	solid 1px #d3d3d3;
+}
+/* ---------------- END   Last Post Sidebar List			-----------------*/
+/* ---------------- BEGIN Last Post Alternate Row			-----------------*/
+div.eipOddRow
+{
+	background-color: #ffffff;
+}
+div.eipEvenRow
+{
+	background-color: #e4e4e4;
+}
+/* ---------------- END   Last Post Alternate Row			-----------------*/

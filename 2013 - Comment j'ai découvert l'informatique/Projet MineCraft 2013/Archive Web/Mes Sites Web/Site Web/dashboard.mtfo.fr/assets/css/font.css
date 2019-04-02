@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abel'), local('Abel-Regular'), url(http://themes.googleusercontent.com/static/fonts/abel/v3/EAqh528fFdbUek8UOky4sA.woff) format('woff');
+}
+@font-face {
+ font-family: Minecraft;
+ src: url("http://aypierre.fr/Ressources/minecraft.eot");  
+ src: local('minecraft'), url("http://aypierre.fr/Ressources/minecraft.ttf") format('truetype'); 
+}
+
+@font-face {
+ font-family: Logocraft;
+ src: url("http://aypierre.fr/Ressources/LogoCraft.eot");  
+ src: local('LogoCraft'), url("http://aypierre.fr/Ressources/LogoCraft.ttf") format('truetype'); 
+}

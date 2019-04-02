@@ -1,0 +1,21 @@
+socialspy: false
+timestamps:
+  login: 1373042140325
+  lastteleport: 1373043301191
+  logout: 1373043357195
+ipAddress: 92.130.194.178
+lastlocation:
+  world: Arene
+  x: 643.4432797435218
+  y: 102.0
+  z: -32.23825519831523
+  yaw: 249.59991
+  pitch: 23.85
+logoutlocation:
+  world: Arene
+  x: 673.8820528492187
+  y: 37.09050803345673
+  z: -23.760638714360343
+  yaw: 342.29987
+  pitch: 90.0
+money: '5.0'

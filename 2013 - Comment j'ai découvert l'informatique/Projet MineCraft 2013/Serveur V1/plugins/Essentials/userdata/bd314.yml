@@ -1,0 +1,62 @@
+socialspy: false
+timestamps:
+  login: 1377017828045
+  logout: 1377000470784
+  lastteleport: 1377005241054
+  kits:
+    tools: 1375094662875
+    firework: 1373107648272
+    notch: 1373810581542
+ipAddress: 81.64.120.224
+logoutlocation:
+  world: world
+  x: 178.9874217495481
+  y: 82.15757212568806
+  z: -42.47363682381315
+  yaw: -87.00134
+  pitch: 37.349854
+lastlocation:
+  world: Spawn
+  x: -481.5
+  y: 52.023999786376635
+  z: 252.5
+  yaw: 92.24999
+  pitch: -2.8499877
+homes:
+  fac:
+    world: Faction
+    x: 339.259027921598
+    y: 42.0
+    z: 143.70385063923462
+    yaw: -303.3055
+    pitch: 2.850031
+  home:
+    world: Alesia
+    x: 290.18765780872906
+    y: 89.0
+    z: -31.00774570389042
+    yaw: -30.75293
+    pitch: 18.299864
+  hg:
+    world: HG
+    x: 118.44417364336755
+    y: 78.0126370867442
+    z: -18.99012479878593
+    yaw: -346.9507
+    pitch: 58.500027
+money: '55308.00000000002'
+afk: false
+powertools:
+  '369':
+  - lightning
+  '353':
+  - snow
+  '332':
+  - more
+  '385':
+  - fireball
+  '352':
+  - kittycannon
+  '267':
+  - fireball
+godmode: true

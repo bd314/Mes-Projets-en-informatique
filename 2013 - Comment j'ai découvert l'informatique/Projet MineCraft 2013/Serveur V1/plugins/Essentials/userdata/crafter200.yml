@@ -1,0 +1,28 @@
+socialspy: false
+timestamps:
+  login: 1372945739578
+  lastteleport: 1372948653923
+  logout: 1372949003272
+  mute: 0
+ipAddress: 82.125.156.106
+lastlocation:
+  world: Spawn
+  x: -337.26974534269766
+  y: 84.56127665826125
+  z: 273.1669705445911
+  yaw: 289.35004
+  pitch: 31.800066
+logoutlocation:
+  world: Magellan
+  x: -115.91397785047916
+  y: 71.24918707874468
+  z: -33.87255902911755
+  yaw: -30.59967
+  pitch: 11.700075
+money: '3727.0'
+muted: true
+ban:
+  reason: '§4Banned:
+
+    §rThe Ban Hammer has spoken!'
+  timeout: 0

@@ -1,0 +1,28 @@
+timestamps:
+  login: 1375459561880
+  lastteleport: 1374959958764
+  logout: 1375459986085
+ipAddress: 88.184.57.214
+lastlocation:
+  world: Magellan
+  x: -200.62812421765503
+  y: 61.0
+  z: -6.300000011920924
+  yaw: -338.995
+  pitch: 23.100008
+logoutlocation:
+  world: Magellan
+  x: -627.3000000119209
+  y: 59.0
+  z: 176.02548412751185
+  yaw: -161.79901
+  pitch: 14.250014
+money: '200.0'
+homes:
+  home:
+    world: Magellan
+    x: -206.50651863574998
+    y: 64.0
+    z: -7.239972282190212
+    yaw: 121.40134
+    pitch: 17.469194

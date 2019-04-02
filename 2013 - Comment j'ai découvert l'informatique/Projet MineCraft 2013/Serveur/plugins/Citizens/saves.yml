@@ -1,0 +1,163 @@
+# Citizens NPC Storage
+
+npc:
+  '0':
+    traits:
+      location:
+        world: Spawn
+        x: '-518.736167958368'
+        y: '26.5'
+        z: '267.69999998807907'
+        yaw: '-179.84716796875'
+        pitch: '9.599993705749512'
+      spawned: true
+      owner: bd314
+    name: bd314
+    traitnames: location,spawned,owner,type
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    traits:
+      location:
+        world: Spawn
+        x: '-515.4332479246569'
+        y: '26.0'
+        z: '265.5821171670326'
+        yaw: '-233.548095703125'
+        pitch: '11.099997520446777'
+      spawned: true
+      owner: bd314
+    name: R98
+    traitnames: location,spawned,owner,type
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    traits:
+      location:
+        world: Spawn
+        x: '-515.4879740954378'
+        y: '26.0'
+        z: '263.52616453379494'
+        yaw: '-226.050048828125'
+        pitch: '8.250014305114746'
+      spawned: true
+      owner: bd314
+    name: beweez
+    traitnames: location,spawned,owner,type
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    traits:
+      location:
+        world: Spawn
+        x: '-521.3181173383538'
+        y: '26.0'
+        z: '265.4101226257652'
+        yaw: '-138.14990234375'
+        pitch: '14.250024795532227'
+      spawned: true
+      owner: bd314
+    name: Martoun
+    traitnames: location,spawned,owner,type
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    traits:
+      location:
+        world: Spawn
+        x: '-521.4190125070918'
+        y: '26.0'
+        z: '263.5194848619461'
+        yaw: '-138.6031494140625'
+        pitch: '23.249988555908203'
+      spawned: true
+      owner: bd314
+    name: Crafter200
+    traitnames: location,spawned,owner,type
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    traits:
+      location:
+        world: HG
+        x: '93.56337043062759'
+        y: '-37640.12500001325'
+        z: '59.497317714929736'
+        yaw: '-180.24713134765625'
+        pitch: '2.399980306625366'
+      spawned: true
+      owner: bd314
+    name: Notch
+    traitnames: location,spawned,owner,type
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    traits:
+      location:
+        world: HG
+        x: '93.40653583934503'
+        y: '-27776.200000065986'
+        z: '59.614609835866496'
+        yaw: '-158.350341796875'
+        pitch: '1.4999830722808838'
+      spawned: true
+      owner: bd314
+    name: Notch
+    traitnames: location,spawned,owner,type
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    traits:
+      location:
+        world: HG
+        x: '93.54031226216598'
+        y: '-1236.200000000144'
+        z: '57.60367435927887'
+        yaw: '-179.73699951171875'
+        pitch: '2.244783401489258'
+      spawned: true
+      owner: bd314
+    name: Notch
+    traitnames: location,spawned,owner,type
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

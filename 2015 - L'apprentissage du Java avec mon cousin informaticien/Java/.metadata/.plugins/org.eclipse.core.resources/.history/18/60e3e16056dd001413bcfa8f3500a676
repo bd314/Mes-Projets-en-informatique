@@ -1,0 +1,29 @@
+package cours;
+
+public class cours1 {
+	
+	public static void main(String[] args) {
+		// Exo 1
+		int[] tableau = new int [10];
+		int longtab = 20;
+		tableau[0] = 3;
+
+//		System.out.println(tableau[0]);
+		
+		// Exo 2
+		char[] tabString = "Je m'appelle Baptiste.".toCharArray();
+		int nb = 0;
+		//System.out.println(tabString[nb]);
+		
+		//TP afficher le contenu d'un tableau de caractères
+		
+		while (nb!=longtab)
+		{
+			System.out.print(tabString[nb]);
+			nb +=1;
+		}
+		
+		
+	}	
+
+}

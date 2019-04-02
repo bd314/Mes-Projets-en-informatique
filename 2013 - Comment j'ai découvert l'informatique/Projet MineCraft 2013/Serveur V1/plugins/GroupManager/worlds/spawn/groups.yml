@@ -1,0 +1,240 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  New:
+    default: true
+    permissions:
+    - automessage.receive.nouveau
+    - essentials.afk
+    - essentials.motd
+    inheritance:
+    info:
+      prefix: '&8[&7Nouveau&8]&7 '
+      build: false
+      suffix: ''
+  Membre:
+    default: false
+    permissions:
+    - automessage.receive.default
+    - essentials.tpdeny
+    - essentials.afk
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.msg
+    - essentials.money
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.afk.auto
+    - essentials.warps.shop
+    - essentials.warps.marchee
+    - essentials.warps.portails
+    - essentials.warps.pvp
+    - essentials.warps.nether
+    - essentials.warps.Faction
+    - essentials.warps.end
+    - essentials.spawn
+    - essentials.delhome
+    - plot.use
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.home
+    - essentials.help
+    - essentials.helpop
+    - essentials.sethome
+    - essentials.pay
+    - essentials.motd
+    - essentials.back
+    inheritance:
+    info:
+      prefix: '&e[&6Membre&e] '
+      build: false
+      suffix: ''
+  Alchimiste:
+    default: false
+    permissions:
+    - essentials.warps.alchimiste
+    inheritance:
+    - Membre
+    info:
+      prefix: '&e[&6Alchimiste&e] '
+      build: false
+      suffix: ''
+  Chasseur:
+    default: false
+    permissions:
+    - essentials.warps.chasseur
+    inheritance:
+    - Membre
+    info:
+      prefix: '&e[&6Chasseur&e] '
+      build: false
+      suffix: ''
+  Agriculteur:
+    default: false
+    permissions:
+    - essentials.warps.agriculteur
+    inheritance:
+    - Membre
+    info:
+      prefix: '&e[&6Agriculteur&e] '
+      build: false
+      suffix: ''
+  Mineur:
+    default: false
+    permissions:
+    - essentials.warps.mineur
+    inheritance:
+    - Membre
+    info:
+      prefix: '&e[&6Mineur&e] '
+      build: false
+      suffix: ''
+  Constructeur:
+    default: false
+    permissions:
+    - essentials.warps.constructeur
+    inheritance:
+    - Membre
+    info:
+      prefix: '&e[&6Constructeur&e] '
+      build: false
+      suffix: ''
+  Ingenieur:
+    default: false
+    permissions:
+    - essentials.warps.ingenieur
+    inheritance:
+    - Membre
+    info:
+      prefix: '&e[&6Ingenieur&e] '
+      build: false
+      suffix: ''
+  Noble:
+    default: false
+    permissions:
+    - essentials.sethome.multiple.vip
+    - essentials.warps.addon
+    - essentials.kits.Noble
+    - magiccarpet.mc
+    - essentials.fly
+    - essentials.warp
+    - nametags.color.blue
+    inheritance:
+    - Membre
+    info:
+      prefix: '&3[&bNoble&3]&b '
+      build: false
+      suffix: ''
+  Anim:
+    default: false
+    permissions:
+    - essentials.sethome
+    - bukkit.command.kill
+    - essentials.afk
+    - essentials.help
+    - essentials.balancetop
+    - essentials.msg
+    - essentials.spawn
+    - essentials.back
+    - warp.sign
+    - essentials.sethome.multiple.vip
+    - playerheads.spawn.forother
+    - playerheads.spawn.own
+    - playerheads.spawn
+    - essentials.fly
+    - essentials.invsee
+    - magiccarpet.mc
+    - essentials.mute
+    - essentials.kick
+    - essentials.gamemode
+    - essentials.home
+    - nametags.color.red
+    - essentials.tpaall
+    - essentials.tp
+    - essentials.more
+    - essentials.banlist
+    inheritance:
+    - Membre
+    - Noble
+    info:
+      prefix: '&6[&cAnimateur&6] '
+      build: false
+      suffix: ''
+  Modo:
+    default: false
+    permissions:
+    - essentials.sethome
+    - bukkit.command.kill
+    - essentials.afk
+    - essentials.help
+    - essentials.balancetop
+    - essentials.msg
+    - essentials.spawn
+    - essentials.back
+    - warp.sign
+    - essentials.sethome.multiple.vip
+    - playerheads.spawn.forother
+    - playerheads.spawn.own
+    - playerheads.spawn
+    - essentials.fly
+    - essentials.invsee
+    - magiccarpet.mc
+    - essentials.mute
+    - essentials.kick
+    - essentials.gamemode
+    - essentials.home
+    - nametags.color.red
+    - essentials.tpaall
+    - essentials.tp
+    - essentials.more
+    - essentials.banlist
+    inheritance:
+    - Membre
+    - Noble
+    info:
+      prefix: '&6[&cMineCryms&6-&cModo&6]&c '
+      build: false
+      suffix: ''
+  Admin:
+    default: false
+    permissions:
+    - '*'
+    - vanish.*
+    - nametags.color.dark_red
+    inheritance:
+    - Membre
+    info:
+      prefix: '&6[&4MineCryms&6-Admin&6]&c '
+      build: false
+      suffix: ''
+  Co:
+    default: false
+    permissions:
+    - '*'
+    - vanish.*
+    - nametags.color.dark_red
+    inheritance:
+    - Membre
+    info:
+      prefix: '&6[&4MineCryms&6-Co-Fondateur&6]&c '
+      build: false
+      suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - '*'
+    - vanish.*
+    inheritance:
+    - Membre
+    info:
+      prefix: '&6[&4MineCryms&6-&4Fondateur&6]&c '
+      build: false
+      suffix: ''
